@@ -10,23 +10,35 @@
 
 # Definindo a pasta de trabalho
 getwd()
-setwd("D:/DSA/PowerBI-DataScience/Cap10")
+setwd("D:/Alexandre/Estudos/CursoPowerBI/Aulas/Cap10")
 
 #################### Pacotes do R ####################
 
 # Instalando os pacotes para o projeto (os pacotes precisam ser instalados apenas uma vez)
 install.packages("Amelia")
-install.packages("caret")
+
+install.packages("caret",
+                 repos = "http://cran.r-project.org", 
+                 dependencies = c("Depends", "Imports", "Suggests"))
+
 install.packages("ggplot2")
 install.packages("dplyr")
 install.packages("reshape")
 install.packages("randomForest")
 install.packages("e1071")
+install.packages('devtools') 
+install.packages("pbkrtest", dependencies = TRUE)
 
 # Carregando os pacotes 
 library(Amelia)
 library(ggplot2)
+
+install.packages("lme4", dependencies = TRUE)
+library(lme4)
+methods(sigma)
+
 library(caret)
+
 library(reshape)
 library(randomForest)
 library(dplyr)
