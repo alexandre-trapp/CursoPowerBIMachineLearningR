@@ -5,8 +5,8 @@ account: cursorcomshinytrapp
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1807021
-bundleId: 2798391
+bundleId: 2798439
 url: https://cursorcomshinytrapp.shinyapps.io/AppTeste/
-when: 1581611279.8937
+when: 1581612035.46822
 asMultiple: FALSE
 asStatic: FALSE
